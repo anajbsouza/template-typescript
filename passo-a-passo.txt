@@ -1,0 +1,17 @@
+- Cria repositório
+- npm init -y
+- Cria pasta src, coloca o app.ts 
+- npm i express
+- Instalar outras bibliotecas conforme necessidade
+- npm i -D nodemon typescript ts-node 
+- Instalar outras dependências de desenvolvimento conforme necessidade
+- Criar arquivo de confuiguração de typescript (tsconfig.json)
+- npx tsc --init
+- Configurar os scripts 
+	"scripts": {
+    "dev": "nodemon src/app.ts",
+		"build": "npx tsc",
+		"start": "node dist/app.js"
+    }
+- Configurar o app.ts
+- Criar a arquitetura e desenvolver o projeto!
